@@ -19,8 +19,6 @@ torch.autograd.set_detect_anomaly(True)
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
-wandb.login(key='33e22fa1805b15142daccb73d9069d0af6bd5f22', relogin=True, force=True)
-
 
 def run(args):
     print(args)
