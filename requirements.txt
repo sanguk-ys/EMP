@@ -1,0 +1,30 @@
+# Core
+torch>=2.0.0
+torchvision>=0.15
+pytorch-lightning>=1.9.0
+numpy
+pandas
+tqdm
+scikit-learn
+pillow
+typing_extensions
+
+# Metrics
+torchmetrics>=1.0.0
+
+# Transformer & FCLIP
+transformers>=4.35
+accelerate>=0.25
+sentencepiece
+protobuf
+
+# Optional but recommended for CLIP tokenizer
+regex
+
+# Logging
+wandb>=0.15
+
+# Others explicitly used in code
+urllib3
+einops
+scipy
